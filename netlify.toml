@@ -1,4 +1,3 @@
 [build]
-base = "main"
-publish = "dist"
-command = "npm run build"
+  command = "npm run build" # Change to your framework's build command
+  publish = "dist"          # Change to your output folder (e.g., dist, build, or public)
