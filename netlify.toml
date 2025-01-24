@@ -1,3 +1,4 @@
 [build]
-  command = "npm run build" # Change to your framework's build command
-  publish = "dist"          # Change to your output folder (e.g., dist, build, or public)
+  base = "main"
+  command = "npm run build"  # Build command inside the main directory
+  publish = "main/dist"      # Adjust to match the output folder inside the main directory
